@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodSetGo</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="invalid_url">Enter Valid URL</string>
+    <string name="invalid_comment">Please Enter the Comment</string>
+</resources>
