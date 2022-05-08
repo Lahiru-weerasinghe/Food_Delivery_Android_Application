@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Food Details"
+        android:layout_marginTop="8dp"
+
+        android:textSize="28dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Food Name"
+        android:textColor="@color/white"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtName"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtPrice"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Image Url"
+        android:textColor="@color/white"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtImageUrl"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="70dp"
+        android:text="UPDATE"
+        android:textSize="21dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:backgroundTint="@color/teal_200"
+        android:background="@drawable/rounded"
+        android:id="@+id/btUpdate"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

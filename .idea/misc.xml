@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/drawable/add_new.xml" value="0.1735" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/drawable/rounded.xml" value="0.1" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/drawable/search_icon.xml" value="0.1" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/activity_add.xml" value="0.259375" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/app_bar_home.xml" value="0.259375" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/main_item.xml" value="0.2" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/temperature_converter.xml" value="0.2453125" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/layout/update_popup.xml" value="0.1" />
+        <entry key="..\:/projects/Android_projects/foodApp/app/src/main/res/menu/search.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
