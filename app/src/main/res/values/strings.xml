@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FoodSetGo</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_mobile">Enter Valid Mobile Number</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="invalid_address">Address Field Must be filled</string>
+    <string name="invalid_menu">Menu Code Field Must be filled</string>
+    <string name="invalid_date">"Date Field Must Be Filled "</string>
+    <string name="invalid_time">Time Field Must Be Filled</string>
+    <string name="invalid_orders">Must Be Filled</string>
+    <string name="txt_dis1">Source Destination</string>
+    <string name="txt_dis2">Destination Distance</string>
+    <string name="et1" />
+    <string name="et2" />
+</resources>
