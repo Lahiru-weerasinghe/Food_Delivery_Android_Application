@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:background="@color/white"
+        android:hapticFeedbackEnabled="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="156dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="200dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/main"
+            />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer name"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:fontFamily="serif"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/mobiletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nametext"
+            android:text="Mobile no"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+
+              />
+
+        <TextView
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobiletext"
+            android:text="Email Address"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+              />
+
+        <TextView
+            android:id="@+id/datetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailtext"
+            android:text="Date"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+             />
+
+        <TextView
+            android:id="@+id/menutext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datetext"
+            android:text="Menu"
+
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+             />
+
+        <LinearLayout
+            android:layout_below="@+id/menutext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:fontFamily="monospace"
+                android:id="@+id/btnEdit"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="monospace"
+                android:id="@+id/btnDelete"
+                android:layout_marginTop="15dp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

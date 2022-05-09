@@ -1,15 +1,4 @@
 <resources>
-    <string name="app_name">RestaurantPayment</string>
-    <string name="p1_bttn">Proceed to continue the order</string>
-    <string name="p2_input1">Name</string>
-    <string name="p2_input2">Last Name</string>
-    <string name="p2_input3">Email</string>
-    <string name="p2_input4">Card Number</string>
-    <string name="p2_input5">Ex date</string>
-    <string name="p2_input6">cvv</string>
-    <string name="p2_bttn">Confirm</string>
-    <string name="p4_bttn1">Go Back</string>
-    <string name="p4_bttn2">Cancel order</string>
-    <string name="p3_bttn1" />
-    <string name="p5_bttn1">Confirm</string>
+    <string name="app_name">FoodSetGo</string>
+    <string name="invalid_name">Must Fill</string>
 </resources>

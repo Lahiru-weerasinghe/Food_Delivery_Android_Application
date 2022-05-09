@@ -1,2 +1,2 @@
-rootProject.name = "RestaurantPayment"
+rootProject.name = "MadFinal"
 include ':app'

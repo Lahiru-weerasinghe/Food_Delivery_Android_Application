@@ -1,4 +1,4 @@
-package com.example.restaurantpayment;
+package com.example.madfinal;
 
 import org.junit.Test;
 
