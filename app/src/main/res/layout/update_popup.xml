@@ -159,6 +159,7 @@
         android:id="@+id/txtTime"
         android:inputType="time"/>
 
+    //button
     <Button
         android:layout_width="200dp"
         android:layout_height="45dp"
