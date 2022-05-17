@@ -124,6 +124,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            //button
             <Button
                 android:layout_width="173dp"
                 android:layout_height="wrap_content"
