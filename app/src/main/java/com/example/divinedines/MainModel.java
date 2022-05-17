@@ -5,6 +5,7 @@ public class MainModel {
     MainModel()
     {
 
+        
     }
 
     public MainModel(String name, String email, String comment, String fdurl) {
@@ -45,4 +46,5 @@ public class MainModel {
     public void setFdurl(String fdurl) {
         this.fdurl = fdurl;
     }
+    
 }
