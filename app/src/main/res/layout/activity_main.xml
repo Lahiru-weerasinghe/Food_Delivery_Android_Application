@@ -11,6 +11,7 @@
         android:id="@+id/title_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:fontFamily="monospace"
         android:text="Explore Your Taste..."
         android:textAlignment="center"
@@ -277,3 +278,15 @@
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+        android:backgroundTint="#FF8400"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="@+id/rv"
+        app:layout_constraintTop_toTopOf="@+id/rv"
+        app:layout_constraintVertical_bias="0.909"
+        app:srcCompat="@drawable/add_new" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> e281379148a92c61a777335d8f28e6cde760057e
