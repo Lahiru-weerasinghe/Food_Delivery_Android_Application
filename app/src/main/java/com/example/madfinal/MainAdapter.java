@@ -1,5 +1,6 @@
 package com.example.madfinal;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.view.LayoutInflater;
@@ -35,7 +36,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<MainModel,MainAdapter.m
 
     @Override
     //get data and fill in update form pur them in holder
-    protected void onBindViewHolder(@NonNull @NotNull myViewHolder holder,final int position, @NonNull @NotNull MainModel model) {
+    protected void onBindViewHolder(@NonNull @NotNull myViewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull @NotNull MainModel model) {
        //fields must be updated
         holder.fname.setText(model.getFname());
         holder.email.setText(model.getEmail());

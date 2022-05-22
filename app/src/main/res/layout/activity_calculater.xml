@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".calculater">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginTop="15dp"
+        android:text="Currency Converter"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/getVal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:hint="Enter Your Price In RS"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/showAns"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/c2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Price In Dollar" />
+
+        <RadioButton
+            android:id="@+id/f2c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="price IN Euro" />
+
+        <RadioButton
+            android:id="@+id/f2c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="price IN Pound" />
+
+        <RadioButton
+            android:id="@+id/f2c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="price IN Dinar" />
+
+        <RadioButton
+            android:id="@+id/f2c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="price IN Rial" />
+
+        <RadioButton
+            android:id="@+id/f2c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="price IN Swiss France" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ansBtn"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="Calculate your money" />
+
+        <Button
+            android:id="@+id/againBtn"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="again" />
+    </LinearLayout>
+
+</LinearLayout>

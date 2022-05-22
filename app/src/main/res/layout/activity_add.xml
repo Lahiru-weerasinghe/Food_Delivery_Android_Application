@@ -193,7 +193,7 @@
         android:inputType="number"
         android:background="@drawable/rounded"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         />
     <Button

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cv1" type="id" />
+    <item name="cv2" type="id" />
+    <item name="cv3" type="id" />
+    <item name="cv4" type="id" />
+    <item name="cv5" type="id" />
+    <item name="cv6" type="id" />
+    <item name="ansBtn" type="id" />
+    <item name="getVal" type="id" />
+    <item name="showAns" type="id" />
+    <item name="c2f" type="id" />
+    <item name="f2c" type="id" />
+    <item name="againBtn" type="id" />
+</resources>
